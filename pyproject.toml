@@ -25,7 +25,6 @@ dependencies = [
     "PyMuPDF>=1.24.12",  # For pymupdf.set_messages addition
     "aiohttp>=3.10.6",  # TODO: remove in favor of httpx, pin for aiohttp.ClientConnectionResetError
     "anyio",
-    "fhaviary[llm]>=0.1",  # For MultipleChoiceQuestion
     "html2text",  # TODO: evaluate moving to an opt-in dependency
     "httpx",
     "numpy",
